@@ -1,0 +1,144 @@
+
+
+.principal{
+    border: 1px solid;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.cor_1{
+    height: 100%;
+    width: 20%;
+    border: 1px solid rgb(21, 10, 10);
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.5s;
+    flex-direction: column;
+}
+.cor_2{
+    height: 100%;
+    width: 20%;
+    border: 1px solid rgb(1, 1, 1);
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+.cor_3{
+    height: 100%;
+    width: 20%;
+    border: 1px solid rgb(21, 10, 10);
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+.cor_4{
+    height: 100%;
+    width: 20%;
+    border: 1px solid rgb(21, 10, 10);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+.cor_5{
+    height: 100%;
+    width: 20%;
+    border: 1px solid rgb(21, 10, 10);
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+
+.cor_1:hover{
+    transform: scaleX(1.5)
+}
+.cor_2:hover{
+    transform: scaleX(1.5)
+}
+.cor_3:hover{
+    transform: scaleX(1.5)
+}
+.cor_4:hover{
+    transform: scaleX(1.5)
+}
+.cor_5:hover{
+    transform: scaleX(1.5)
+}
+
+button img{
+    height: 50px;
+    width: 50px;
+    background: none;
+    border-radius:5px ;
+    cursor: pointer;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+#paragrafo{
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+#trocarOrdem{
+    background-color: #335a1f;
+    color: aliceblue;
+    border: 2px solid #000;
+    border-radius: 5px;
+    
+    
+    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .principal {
+        height: 400px;
+        width: 400px;
+    }
+
+    .cor_1, .cor_2, .cor_3, .cor_4, .cor_5 {
+        width: 100%;
+    }
+}
+
+/* Estilos para telas pequenas (menor que 400px) */
+@media only screen and (max-width: 400px) {
+    .principal {
+        height: 300px;
+        width: 300px;
+    }
+
+    .cor_1, .cor_2, .cor_3, .cor_4, .cor_5 {
+        width: 100%;
+        font-size: 12px; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    button img {
+        height: 30px;
+        width: 30px;
+    }
+}
